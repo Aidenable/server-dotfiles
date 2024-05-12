@@ -1,3 +1,4 @@
+```
 #!/bin/sh
 
 cd ~/
@@ -14,3 +15,4 @@ git clone --recurse-submodules https://github.com/Aidenable/server-dotfiles.git
 rm -rf .oh-my-zsh .zshrc
 cd ~/server-dotfiles && stow --restow */
 cd ~/
+```
