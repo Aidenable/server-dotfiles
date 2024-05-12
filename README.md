@@ -4,7 +4,7 @@ cd ~/
 mkdir -p .config
 
 rm -rf .oh-my-zsh .zshrc
-pacman --noconfirm -Sy git stow vim neovim neofetch starship zsh zsh-autosuggestions zsh-syntax-highlighting
+pacman --noconfirm -Sy git stow vim neovim neofetch starship starship zsh zsh-autosuggestions zsh-syntax-highlighting
 
 echo y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
