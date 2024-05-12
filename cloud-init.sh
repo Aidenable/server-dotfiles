@@ -5,7 +5,7 @@ echo "Server Installing..."
 cd ~/ && rm -rf .oh-my-zsh .zshrc .tmux.conf
 pacman --noconfirm -Sy git stow vim neovim neofetch starship starship zsh tmux
 
-git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && rm -rf yay
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && rm -rf ~/yay
 
 
 echo y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
