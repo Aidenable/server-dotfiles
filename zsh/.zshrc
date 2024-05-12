@@ -21,9 +21,7 @@ DISABLE_AUTO_TITLE="true"
 # see 'man strftime' for details.
 HIST_STAMPS="dd.mm.yyyy"
 
-plugins=(git tmux history sudo)
-
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+plugins=(git tmux history sudo zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='ls --color=auto'
