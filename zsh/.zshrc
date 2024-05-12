@@ -26,10 +26,14 @@ plugins=(git tmux history sudo)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/oh-my-zsh.sh
 
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
 alias ..="cd ../"
 alias cls="clear"
 alias q="exit"
 
+alias vvvv="vim"
 alias vim="nvim"
 alias v="nvim"
 
