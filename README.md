@@ -17,9 +17,9 @@ rm -rf ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 
-rm -rf server-dotfiles .zshrc .config
+rm -rf server-dotfiles _ .zshrc .config .p10k.zsh
 mkdir -p .config
 
-git clone --recurse-submodules https://github.com/Aidenable/server-dotfiles.git 
-cd ~/server-dotfiles && stow --restow */ && cd ~/
+git clone --recurse-submodules https://github.com/Aidenable/server-dotfiles.git _
+cd ~/_ && stow --restow */ && cd ~/
 ```
