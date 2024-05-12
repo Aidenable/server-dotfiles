@@ -66,4 +66,4 @@ bindkey "^[c" kill-whole-line
 bindkey "^[[" beginning-of-line
 
 eval "$(starship init zsh)"
-export PATH="$HOME:/.local/bin"
+# export PATH="$HOME:/.local/bin"
