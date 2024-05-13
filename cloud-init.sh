@@ -11,6 +11,7 @@ git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && rm -rf ~
 echo y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 
+mkdir -p ~/.oh-my-zsh/custom/plugins/
 rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
