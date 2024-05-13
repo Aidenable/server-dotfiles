@@ -44,6 +44,7 @@ alias pacr="sudo pacman -R"
 
 alias t="tmux"
 alias ss="sudo systemctl"
+alias logs="sudo journalctl -u"
 alias rr="make run"
 alias glog="git log --oneline --decorate --graph"
 
